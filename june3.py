@@ -9,5 +9,4 @@ if command == "Add":
 	add(product)
 elif command == "Remove":
 	product = input("What product?")
-	remove(product)
-print(shopping_list)
+	remove(item)
