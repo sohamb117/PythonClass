@@ -39,37 +39,37 @@ def play():
 		losescore += 1
 
 	elif computer == "Rock" and player == "rock":
-		print("Tie! Computer chose Rock.")
+		print("Tie! Computer chose paper.")
 		gameEnd = True
 		tie = True
 		tiescore += 1
 
 	elif computer == "Paper" and player == "rock":
-		print("Computer wins! Computer chose Paper.")
+		print("Computer wins! Computer chose scissors.")
 		gameEnd = True
 		lose = True
 		losescore += 1
 
 	elif computer == "Scissors" and player == "rock":
-		print("Player wins! Computer chose Scissors.")
+		print("Player wins! Computer chose rock.")
 		gameEnd = True
 		win = True
 		winscore += 1
 
 	elif computer == "Scissors" and player == "scissors":
-		print("Tie! Computer chose Scissors.")
+		print("Tie! Computer chose paper.")
 		gameEnd = True
 		tie = True
 		tiescore += 1
 
 	elif computer == "Rock" and player == "scissors":
-		print("Computer wins! Computer chose Rock.")
+		print("Computer wins! Computer chose scissors.")
 		gameEnd = True
 		lose = True
 		losescore += 1
 
 	elif computer == "Paper" and player == "scissors":
-		print("Player wins! Computer chose Paper.")
+		print("Player wins! Computer chose rock.")
 		gameEnd = True
 		win = True
 		winscore += 1
